@@ -85,7 +85,7 @@ getPhotos = (tag, photos) => {
               render ={ ()=> 
                 (this.state.loading)
                   ? <p>Loading...</p>
-                  : <Gallery data={this.state.catsPhotos} title={this.state.cats}/>
+                  : <Gallery data={this.state.catsPhotos} title="Cats"/>
               }
             />
 
@@ -95,7 +95,7 @@ getPhotos = (tag, photos) => {
               render ={ ()=> 
                 (this.state.loading)
                   ? <p>Loading...</p>
-                  : <Gallery data={this.state.dogsPhotos} title={this.state.dogs}/>
+                  : <Gallery data={this.state.dogsPhotos} title="Dogs"/>
               }
             />
 
@@ -105,7 +105,7 @@ getPhotos = (tag, photos) => {
               render ={ ()=> 
                 (this.state.loading)
                   ? <p>Loading...</p>
-                  : <Gallery data={this.state.computersPhotos} title={this.state.computers}/>
+                  : <Gallery data={this.state.computersPhotos} title="Computers"/>
               }
             />
 
