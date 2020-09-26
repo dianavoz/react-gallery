@@ -9,7 +9,7 @@ This image gallery app was created using React. Using React Router, routes are s
 </li>
   <li>You’ll need to edit the config.js file in the src/components/ folder
 </li>
-  <li>Apply for a [non-commercial API key](https://www.flickr.com/services/apps/create/apply/)
+  <li>Apply for a <a href="https://www.flickr.com/services/apps/create/apply">non-commercial API key</a>
 </li>
   <li>The config.js file should look something like this:
 </li>
